@@ -19,6 +19,10 @@ def Eating():
             Eating()
         elif UserChoices == 'g':
             print("fine leave i dont care you happiness was ", happiness, "have a great live ", player_name)
+            if happiness < 0:
+                print("YOU LOOSE LMAO LOOSER")
+            elif happiness > 0:
+                print("you win congrats")
             exit()
 
     elif Eating.lower()  == 'h':
@@ -33,6 +37,10 @@ def Eating():
             Eating()
         elif UserChoices == 'g':
             print("fine leave i dont care you happiness was ", happiness, "have a great live ", player_name)
+            if happiness < 0:
+                print("YOU LOOSE LMAO LOOSER")
+            elif happiness > 0:
+                print("you win congrats")
             exit()
 
     elif Eating.lower()  == 't':
@@ -47,6 +55,10 @@ def Eating():
             Eating()
         elif UserChoices == 'g':
             print("fine leave i dont care you happiness was ", happiness, "have a great live ", player_name)
+            if happiness < 0:
+                print("YOU LOOSE LMAO LOOSER")
+            elif happiness > 0:
+                print("you win congrats")
             exit()
 
     elif Eating.lower()  == 'c': 
@@ -60,6 +72,10 @@ def Eating():
             Eating()
         elif UserChoices == 'g':
             print("fine leave i dont care you happiness was ", happiness, "have a great live ", player_name)
+            if happiness < 0:
+                print("YOU LOOSE LMAO LOOSER")
+            elif happiness > 0:
+                print("you win congrats")
             exit()
 
     elif Eating.lower()  == 'i':
@@ -73,6 +89,10 @@ def Eating():
             Eating()
         elif UserChoices == 'g':
             print("fine leave i dont care you happiness was ", happiness, "have a great live ", player_name)
+            if happiness < 0:
+                print("YOU LOOSE LMAO LOOSER")
+            elif happiness > 0:
+                print("you win congrats")
             exit()
   
 def rides():
@@ -90,6 +110,10 @@ def rides():
             Eating()
         elif UserChoices == 'g':
             print("fine leave i dont care you happiness was ", happiness, "have a great live ", player_name)
+            if happiness < 0:
+                print("YOU LOOSE LMAO LOOSER")
+            elif happiness > 0:
+                print("you win congrats")
             exit()
 
       elif rides  == 'f':
@@ -104,6 +128,10 @@ def rides():
             Eating()
         elif UserChoices == 'g':
             print("fine leave i dont care you happiness was ", happiness, "have a great live ", player_name)
+            if happiness < 0:
+                print("YOU LOOSE LMAO LOOSER")
+            elif happiness > 0:
+                print("you win congrats")
             exit()
 
       elif rides  == 'b':
@@ -118,6 +146,10 @@ def rides():
             Eating()
         elif UserChoices == 'g':
             print("fine leave i dont care you happiness was ", happiness, "have a great live ", player_name)
+            if happiness < 0:
+                print("YOU LOOSE LMAO LOOSER")
+            elif happiness > 0:
+                print("you win congrats")
             exit()
 
       elif rides  == 'r':
@@ -131,6 +163,10 @@ def rides():
             Eating()
         elif UserChoices == 'g':
             print("fine leave i dont care you happiness was ", happiness, "have a great live ", player_name)
+            if happiness < 0:
+                print("YOU LOOSE LMAO LOOSER")
+            elif happiness > 0:
+                print("you win congrats")
             exit()
 
       elif rides  == 's':
@@ -144,6 +180,10 @@ def rides():
             Eating()
         elif UserChoices == 'g':
             print("fine leave i dont care you happiness was ", happiness, "have a great live ", player_name)
+            if happiness < 0:
+                print("YOU LOOSE LMAO LOOSER")
+            elif happiness > 0:
+                print("you win congrats")
             exit()
 
 print("press 'c' to continue diologue")
@@ -180,5 +220,9 @@ if gohome.lower != 'g':
             Eating()
     elif UserChoices == 'g':
             print("fine leave i dont care you happiness was ", happiness, "have a great live ", player_name)
+            if happiness < 0:
+                print("you win congrats")
+            elif happiness > 0:
+                print("YOU LOOSE LMAO LOOSER")
             exit()
 
